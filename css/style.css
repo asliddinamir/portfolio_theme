@@ -460,7 +460,7 @@ section {
   padding-top: 0;
   padding-left: 3.5rem;
   padding-bottom: 3rem;
-  border-left: 0.1rem solid #aaa;
+  border-left: 0.1rem solid #111;
   position: relative;
 }
 
@@ -507,6 +507,7 @@ section {
 .portfolio .box-container {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (minmax(40rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 1.5rem;
 }
@@ -586,6 +587,7 @@ section {
 .awards .box-container {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 1.5rem;
 }
