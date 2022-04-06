@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!---Navbar Section Starts-->
+<nav class="navbar">
+    <a class="activ" href="index.html"><i class="fas fa-home activ"></i><span>home</span></a>
+    <a href="about.html"><i class="fas fa-user"></i><span>about</span></a>
+    <a href="portfolio.html"><i class="fas fa-briefcase"></i><span>portfolio</span></a>
+    <a href="awards.html"><i class="fas fa-award"></i><span>awards</span></a>
+    <a href="contact.html"><i class="fas fa-address-book"></i><span>contact</span></a>
+</nav>
+    <!---Navbar Section Ends-->
+
+    <!---Home Section Starts-->
+    <div class="home">
+       
+        <div class="content">
+            <h3>hi, i am John Doe</h3>
+            <h2>Junior <span class="auto-typed"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At labore sapiente corrupti quia, dignissimos voluptatem dolores vitae sint omnis? Consequatur exercitationem voluptate, natus nulla velit nihil eum atque magnam ipsa facere ratione quisquam aliquam nobis porro tempora placeat eaque similique.</p>
+            <a href="contact.html" class="btn">get in touch<i class="fas fa-user"></i></a>    
+        </div>
+        <div class="image">
+            <img src="images/user1.jpg" alt="">
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/"  target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.linkedin.com/"  target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://github.com/"  target="_blank" class="fab fa-github"></a>
+        </div>
+    </div>
+    <!---Home Section Ends-->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+         
+      var typed = new Typed('.auto-typed',{
+          strings: ['Full Stack Developer', ' Python Developer', 'Front-End Developer'],
+          typeSpeed: 30,
+          backSpeed: 30,
+          loop: true
+
+      });
+
+    </script>
+</body>
+</html>
